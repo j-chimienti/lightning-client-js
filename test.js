@@ -1,5 +1,5 @@
 
-const LightningClient = require('lightning-client');
+const LightningClient = require('./index');
 
 const dir = "/var/lib/docker/volumes/generated_clightning_bitcoin_datadir/_data"
 
