@@ -149,6 +149,8 @@ class LightningClient extends EventEmitter {
             id: callInt.toString()
         };
 
+        console.log("send", sendObj)
+
         // Wait for the client to connect
         return this.clientConnectionPromise
             .then(() => new Promise((resolve, reject) => {
